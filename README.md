@@ -1,1 +1,1 @@
-# finney-financial
+# phinney-financial
