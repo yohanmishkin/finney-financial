@@ -1,0 +1,18 @@
+
+body {
+	background-color: rgb(25, 25, 25);
+	color: #EFEEAB;
+	/*font-family: 'Playfair Display', serif;*/
+	/*font-family: 'Source Serif Pro', serif;*/
+	font-family: 'Lora', serif;
+}
+
+.jumbotron {
+	background-image: url("pano.jpg");
+	background-size: cover;
+	min-height: 400px;
+}
+
+.black-text {
+	color: rgb(25, 25, 25);
+}
