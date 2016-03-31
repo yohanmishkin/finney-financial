@@ -5,8 +5,9 @@ body {
 	font-family: 'Lora', serif;
 }
 
-.jumbotron{
+.jumbotron {
 	background: url('pano.jpg');
+	background-position: 0 0;
 	min-height: 400px;
 	text-shadow: white;
 }
@@ -17,21 +18,37 @@ body {
 
 
  @media (max-width: 768px) {
+
+ 	body {
+ 		text-align: center;
+ 	}
+
+ 	.header h1, h4, {
+ 		text-align: center;
+ 		font-weight: bold;
+ 	}
+
+ 	h5 {
+ 		text-decoration: underline;
+ 	}
+ 	
  	.jumbotron {
  		min-height: 200px;
+ 		background: url('pano.small.jpg');
  	}
- 	.strokeme
- 	{
- 	    color: rgb(25, 25, 25);
- 	    text-shadow:
- 	    -.5px -.5px 0 #EFEEAB,
- 	    .5px -.5px 0 #EFEEAB,
- 	    -.5px .5px 0 #EFEEAB,
- 	    .5px .5px 0 #EFEEAB;  
- 	}
+    
     .row .col-lg-12 > .pull-right {
         float: none !important;
     }
+
+    .black-text {
+    	color: #fffff0;
+    }
+
 }
 
-
+@media (min-width: 768px) and (max-width: 992px) {
+	.black-text {
+    	color: #fffff0;
+    }
+}
