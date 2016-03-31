@@ -1,18 +1,37 @@
-
+/* Move down content because we have a fixed navbar that is 50px tall */
 body {
 	background-color: rgb(25, 25, 25);
 	color: #EFEEAB;
-	/*font-family: 'Playfair Display', serif;*/
-	/*font-family: 'Source Serif Pro', serif;*/
 	font-family: 'Lora', serif;
 }
 
-.jumbotron {
-	background-image: url("pano.jpg");
-	background-size: cover;
+.jumbotron{
+	background: url('pano.jpg');
 	min-height: 400px;
+	text-shadow: white;
 }
 
 .black-text {
 	color: rgb(25, 25, 25);
 }
+
+
+ @media (max-width: 768px) {
+ 	.jumbotron {
+ 		min-height: 200px;
+ 	}
+ 	.strokeme
+ 	{
+ 	    color: rgb(25, 25, 25);
+ 	    text-shadow:
+ 	    -.5px -.5px 0 #EFEEAB,
+ 	    .5px -.5px 0 #EFEEAB,
+ 	    -.5px .5px 0 #EFEEAB,
+ 	    .5px .5px 0 #EFEEAB;  
+ 	}
+    .row .col-lg-12 > .pull-right {
+        float: none !important;
+    }
+}
+
+
